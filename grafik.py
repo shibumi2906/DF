@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 # Генерация двух наборов случайных данных
 num_samples = 100  # Количество образцов
-data1 = np.random.rand(num_samples)  # Первый набор данных
-data2 = np.random.rand(num_samples)  # Второй набор данных
+data1 = np.random.rand(num_samples)  #  Первый набор данных
+data2 = np.random.rand(num_samples)  #  Второй набор данных
 
 # Построение диаграммы рассеяния
 plt.figure(figsize=(10, 6))
