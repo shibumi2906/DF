@@ -47,6 +47,7 @@ class SofaSpider(scrapy.Spider):
 
 
 # Запуск парсинга и сохранение данных в CSV файл
+
 from scrapy.crawler import CrawlerProcess
 
 process = CrawlerProcess(settings={
